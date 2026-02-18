@@ -7,3 +7,4 @@
 *.sln.docstates
 *.slnx
 *.sqlite
+custom_corpus/
