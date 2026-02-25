@@ -7,7 +7,19 @@ Department of Advanced Computer Sciences, Faculty of Science and Engineering
 
 ```
 Tutorials/          ← Reference tutorials (read-only, for self-study)
-Assignments/        ← Graded assignments (work on these and submit)
+Assignments/        ← Graded assignments (work here)
+  tokenization/
+  document_representation/
+  search_engines/
+  measuring_quality/
+  structured_representations_1/
+  structured_representations_2/
+  detecting_patterns_1/
+  detecting_patterns_2/
+  conversational_search_basics/
+  conversational_search_facts/
+  agents/
+SubmittedWork/      ← Copy your finished notebooks here to submit
   tokenization/
   document_representation/
   search_engines/
@@ -55,4 +67,17 @@ Assignment notebooks are in `Assignments/<topic>/`. Each notebook contains:
 
 ## Submission
 
-Follow the submission instructions provided by your instructor.
+When you have finished an assignment, copy your completed notebook to the
+matching folder inside `SubmittedWork/`. For example, for the Tokenization
+assignment:
+
+```bash
+cp Assignments/tokenization/01_IRTM_Tokenization_2025_2026.ipynb \
+   SubmittedWork/tokenization/
+```
+
+**Important:**
+- Keep the original filename — do not rename the notebook.
+- Make sure the notebook runs from top to bottom without errors before submitting.
+- You can overwrite a previous submission by copying again (latest version counts).
+- Deadline: see Canvas for due dates per assignment.
