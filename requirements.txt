@@ -1,0 +1,75 @@
+# =============================================================================
+# IRTM 2025-2026 — Python Dependencies
+# =============================================================================
+# Tested with Python 3.10 (same as the course JupyterHub cluster).
+# Python 3.9–3.11 should also work; Python 3.12+ may have compatibility
+# issues with some packages.
+#
+# Install with:  pip install -r requirements.txt
+# =============================================================================
+
+# --- Core scientific stack ---------------------------------------------------
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+tqdm
+
+# --- NLP foundations ---------------------------------------------------------
+nltk
+beautifulsoup4
+gensim
+spacy
+langdetect
+transliterate
+unidecode
+
+# --- Deep learning / Transformers --------------------------------------------
+torch
+transformers
+accelerate
+sentence-transformers
+
+# --- HuggingFace ecosystem ---------------------------------------------------
+datasets
+evaluate
+
+# --- Search & retrieval ------------------------------------------------------
+pyserini                  # requires Java JDK 11+ (see LOCAL_SETUP.md)
+faiss-cpu
+rank_bm25
+PyMuPDF                   # imported as "fitz"
+
+# --- NER / sequence labelling ------------------------------------------------
+python-crfsuite
+sklearn-crfsuite
+seqeval
+fastcoref
+
+# --- Topic modelling ---------------------------------------------------------
+pyLDAvis
+bertopic
+umap-learn
+hdbscan
+
+# --- Evaluation & metrics ----------------------------------------------------
+rouge-score
+bert-score
+
+# --- Visualisations ----------------------------------------------------------
+plotly
+wordcloud
+svgling
+
+# --- String matching ---------------------------------------------------------
+python-Levenshtein
+
+# --- Graphs ------------------------------------------------------------------
+networkx
+
+# --- OpenAI (Tutorials 11 & 12 only) ----------------------------------------
+openai>=1.40.0
+openai-agents
+tiktoken
